@@ -1,14 +1,19 @@
 <template>
-    <h6 class="CustomHeading">
-        {{ tite | tranformToCaps }}
-    </h6>
+    <h1 class="CustomHeading">
+        {{title}}
+    </h1>
 </template>
 
 <script>
 export default {
   name: 'Heading',
+  computed: {
+    tranformCase () {
+      return (input) => input.toUpperCase()
+    }
+  },
   props: {
-    tite: {
+    title: {
       type: String,
       required: true
     }
@@ -24,7 +29,6 @@ export default {
 .CustomHeading {
   text-align: left;
   font-weight: bold;
-  font-size: 16px;
-  margin-left: 20px;
+  color: #090
 }
 </style>

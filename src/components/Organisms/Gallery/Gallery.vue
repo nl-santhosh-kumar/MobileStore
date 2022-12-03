@@ -16,12 +16,12 @@
         <div v-if="phoneFeed.length === 0">
             <no-phone-feed-available />
         </div>
-
     </div>
 </template>
 <script>
 
 import NoPhoneFeedAvailable from '@/components/Molecules/NoPhoneFeedAvailable/NoPhoneFeedAvailable.vue'
+
 export default {
   name: 'Gallery',
   components: {
@@ -42,11 +42,6 @@ export default {
 </script>
 
 <style scoped>
-.main {
-    max-width: 1200px;
-    margin: auto;
-    align-content: center;
-}
 
 .container {
     float: left;
@@ -65,13 +60,12 @@ export default {
 
 .content {
     padding-top: 10px;;
-    border-radius: 25px;
-    width: 250px;
+    text-align: center;
 }
 
 img {
     max-width: 200px;
-    max-height: 250px;
+    max-height: 200px;
 }
 
 .heading-wrapper {
@@ -101,7 +95,6 @@ img {
 @media screen and (max-width: 961px) {
     .wrapper {
         margin: 0 auto;
-
     }
     .container {
         float: left;
