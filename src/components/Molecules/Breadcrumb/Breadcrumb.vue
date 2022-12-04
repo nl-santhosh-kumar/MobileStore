@@ -2,7 +2,7 @@
     <main class="main">
         <ul class="breadcrumb">
             <li><a href="/">Home</a></li>
-            <li>Show Information</li>
+            <li>Phone Information</li>
         </ul>
     </main>
 </template>
@@ -35,11 +35,11 @@ ul.breadcrumb li+li:before {
   content: "/\00a0";
 }
 ul.breadcrumb li a {
-  color: #ffc426;
+  color: #090;
   text-decoration: none;
 }
 ul.breadcrumb li a:hover {
-  color: #ffc426;
+  color: #090;
   text-decoration: underline;
   cursor: pointer;
 }

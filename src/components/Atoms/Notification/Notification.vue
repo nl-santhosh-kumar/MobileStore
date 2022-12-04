@@ -12,12 +12,6 @@ export default {
       return (input) => input.toUpperCase()
     }
   },
-  props: {
-    message: {
-      type: String,
-      required: true
-    }
-  },
   filters: {
     tranformToCaps (title) {
       return title.toUpperCase()

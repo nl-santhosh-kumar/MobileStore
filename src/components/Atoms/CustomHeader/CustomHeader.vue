@@ -1,11 +1,11 @@
 <template>
     <div class="fill">
         <div class="main">
-            <b-navbar toggleable="lg" type="dark" variant="warning" class="main">
-                <b-navbar-brand href="/" class="custom-header">
-                    <b-img src="https://www.pathe.nl/assets/favicons/favicon-32x32.png"/>
-                </b-navbar-brand>
-            </b-navbar>
+            <ul>
+            <li><span> Home</span></li>
+            <li><span> News</span></li>
+            <li><span> Products</span></li>
+</ul>
         </div>
     </div>
 </template>
@@ -37,6 +37,29 @@ b-navbar {
 }
 .fill {
     width: 100%;
-    background: #ffff;
+    background: #fff;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+li {
+  float: left;
+}
+
+li span {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li span:hover {
+  background-color: #ffff;
 }
 </style>

@@ -2,7 +2,7 @@
     <div class="main">
         <div class="wrapper">
             <div class="container"  v-for="(phoneInformation) in phoneFeed" :key="phoneInformation.id">
-                <div class="content">
+                <div class="content" @click="onShowSelection(phoneInformation.id)">
                     <img :src="`${phoneInformation.image || imageUrl}`" />
                     <div class="manufacturer">
                        {{ phoneInformation.manufacturer }}
@@ -31,6 +31,14 @@ export default {
     phoneFeed: {
       type: Array,
       default: () => ([])
+    }
+  },
+  methods: {
+    /**
+     * A function to route the user to show route by passing id to the url
+     */
+    onShowSelection (id) {
+      this.$router.push(`/information/${id}`)
     }
   },
   data: function () {

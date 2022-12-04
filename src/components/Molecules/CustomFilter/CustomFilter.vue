@@ -80,9 +80,17 @@ export default {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+   border-radius: 10px;
 }
 
-.dropdown-content span:hover {background-color: #f1f1f1}
+.dropdown-content span:last-child {
+   right: 0;
+   float:right;
+}
+
+.dropdown-content span:hover {
+  background-color: #090;
+  }
 
 .dropdown:hover .dropdown-content {
   display: block;
