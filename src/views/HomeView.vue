@@ -7,7 +7,7 @@
     <br >
       <tool-bar :options="toolBarOptions"/>
     <br >
-    <div v-if="phoneFeed.length>0">
+    <div>
     <gallery :phoneFeed="phoneFeed"/>
     </div>
   </div>
