@@ -38,4 +38,10 @@ export default {
   z-index:2;
   color: black;
 }
+
+@media screen and (max-width: 641px) {
+.notification {
+  height: 120px;
+}
+}
 </style>

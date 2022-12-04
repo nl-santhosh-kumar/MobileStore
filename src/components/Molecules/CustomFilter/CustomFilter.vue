@@ -3,8 +3,9 @@
         <button class="dropbtn">{{title}}</button>
           <div class="dropdown-content" >
            <span v-for="option in filterOptions"
-                :value="option"
-                :key="option">{{ option }} </span>
+              @click="onFilterOptionSection(option)"
+              :value="option"
+              :key="option">{{ option }} </span>
         </div>
       </div>
 </template>
@@ -20,6 +21,10 @@ export default {
     title: {
       type: String,
       default: ''
+    },
+    attribute: {
+      type: String,
+      default: ''
     }
   },
   data () {
@@ -31,8 +36,10 @@ export default {
     /**
          * A function to pass the selected filter option(genre, or rating) to the parent component
          */
-    onFilterOptionSection: function (option) {
-      this.$parent.onGenreFilterClick(option, this.title)
+    onFilterOptionSection: function (option = '') {
+      // just for boolean options
+      option = (option === 'Yes' ? true : option === 'No' ? false : option)
+      this.$parent.onFilterClick(option, this.attribute)
       // Rating is number, to convert it to string to match the prop definition
       this.text = option.toString()
     }

@@ -12,6 +12,7 @@
             "has_usp": false,
             "has_5g": true,
             "has_esim": true,
+            "image": "https://www.kpn.com/shop/cdn/products/_/product_11755864_main.webp",
             "colors": [
                 "BLAUW",
                 "ROZE",
@@ -297,8 +298,7 @@
                 "promotion_slider_source_kz": null,
                 "promotion_bg_color_kz": null
             },
-            "has_promotion": true,
-            "image": "https://www.kpn.com/shop/cdn/products/_/product_6243627_main.webp"
+            "has_promotion": true
         },
         {
             "id": 6041377,
@@ -321,6 +321,7 @@
             "sort_order": 4,
             "release_date": "2021-09-17",
             "default": "apple_iphone-13-pro-5g_graphite-128gb",
+            "image": "https://www.kpn.com/shop/cdn/products/_/product_11755864_main.webp",
             "variants": [
                 {
                     "id": 6043756,
@@ -705,6 +706,7 @@
             "sort_order": 19,
             "release_date": "2021-09-17",
             "default": "apple_iphone-13-mini-5g_productred-256gb",
+            "image": "https://www.kpn.com/shop/cdn/products/_/product_11755864_main.webp",
             "variants": [
                 {
                     "id": 6043739,
@@ -806,6 +808,7 @@
             "sort_order": 12,
             "release_date": "2021-09-17",
             "default": "apple_iphone-13-pro-max-5g_graphite-128gb",
+            "image": "https://www.kpn.com/shop/cdn/products/_/product_11755864_main.webp",
             "variants": [
                 {
                     "id": 6043779,
@@ -1190,6 +1193,7 @@
             "sort_order": 81,
             "release_date": "2020-04-20",
             "default": "apple_iphone-xr-refurbished_black-64gb",
+            "image": "https://www.kpn.com/shop/cdn/products/_/product_11755864_main.webp",
             "variants": [
                 {
                     "id": 653409,
@@ -1244,6 +1248,7 @@
             "sort_order": 24,
             "release_date": "2021-09-30",
             "default": "fairphone_4-5g_grey-128gb",
+            "image": "https://www.kpn.com/shop/cdn/products/_/product_6083813_main.webp",
             "variants": [
                 {
                     "id": 6083813,
@@ -1298,6 +1303,7 @@
             "sort_order": 27,
             "release_date": "2021-10-04",
             "default": "nokia_2720-flip-4g_black-1gb",
+            "image": "https://www.kpn.com/shop/cdn/products/_/product_12251419_main.webp",
             "variants": [
                 {
                     "id": 6181397,
@@ -1353,6 +1359,7 @@
             "sort_order": 26,
             "release_date": "2021-10-11",
             "default": "xiaomi_11-lite-ne-5g_snowflake-white-128gb",
+            "image": "https://www.kpn.com/shop/cdn/products/_/product_6356570_main.webp",
             "variants": [
                 {
                     "id": 6243627,
@@ -1432,6 +1439,7 @@
             "sort_order": 3,
             "release_date": "2021-09-17",
             "default": "apple_iphone-13-5g_midnight-128gb",
+            "image": "https://www.kpn.com/shop/cdn/products/_/product_6043820_main.webp",
             "variants": [
                 {
                     "id": 6043845,
@@ -1728,6 +1736,7 @@
             "sort_order": 15,
             "release_date": "2021-09-17",
             "default": "apple_iphone-13-5g_productred-512gb",
+            "image": "https://www.kpn.com/shop/cdn/products/_/product_6043820_main.webp",
             "variants": [
                 {
                     "id": 6043823,
@@ -1826,6 +1835,7 @@
             "sort_order": 55,
             "release_date": "2020-10-16",
             "default": "apple_iphone-12-5g_productred-128gb",
+            "image": "https://www.kpn.com/shop/cdn/products/_/product_6043820_main.webp",
             "variants": [
                 {
                     "id": 1498147,
@@ -1903,6 +1913,7 @@
             "sort_order": 9,
             "release_date": "2021-09-09",
             "default": "oppo_reno6-5g_stellar-black-128gb",
+            "image": "https://www.kpn.com/shop/cdn/products/_/product_11573016_main.webp",
             "variants": [
                 {
                     "id": 5697821,
@@ -1980,6 +1991,7 @@
             "sort_order": 82,
             "release_date": "2018-06-18",
             "default": "apple_iphone-8-refurbished_space-gray-64gb",
+            "image": "https://www.kpn.com/shop/cdn/products/_/product_11755864_main.webp",
             "variants": [
                 {
                     "id": 2363,
@@ -2057,6 +2069,7 @@
             "sort_order": 72,
             "release_date": "2019-03-04",
             "default": "apple_iphone-x-refurbished_space-grey-64gb",
+            "image": "https://www.kpn.com/shop/cdn/products/_/product_11755864_main.webp",
             "variants": [
                 {
                     "id": 2410,
@@ -2137,6 +2150,7 @@
             "sort_order": 21,
             "release_date": "2019-09-13",
             "default": "apple_iphone-11_black-64gb",
+            "image": "https://www.kpn.com/shop/cdn/products/_/product_11755864_main.webp",
             "variants": [
                 {
                     "id": 82357,
@@ -2301,6 +2315,7 @@
             "sort_order": 71,
             "release_date": "2019-08-27",
             "default": "fairphone_3-plus_black-64gb",
+            "image": "https://www.kpn.com/shop/cdn/products/_/product_6083813_main.webp",
             "variants": [
                 {
                     "id": 2735990,
@@ -2355,6 +2370,7 @@
             "sort_order": 78,
             "release_date": "2019-09-13",
             "default": "apple_iphone-11_productred-64gb",
+            "image": "https://www.kpn.com/shop/cdn/products/_/product_6083813_main.webp",
             "variants": [
                 {
                     "id": 432113,
@@ -2410,6 +2426,7 @@
             "sort_order": 5,
             "release_date": "2020-09-23",
             "default": "samsung_galaxy-s20-fe-5g_cloud-mint-128gb",
+            "image": "https://www.kpn.com/shop/cdn/products/_/product_6083813_main.webp",
             "variants": [
                 {
                     "id": 1348713,
@@ -2487,6 +2504,7 @@
             "sort_order": 65,
             "release_date": "2020-12-28",
             "default": "oppo_reno4-pro-5g_space-black-256gb",
+            "image": "https://www.kpn.com/shop/cdn/products/_/product_6083813_main.webp",
             "variants": [
                 {
                     "id": 1943254,
@@ -2563,6 +2581,7 @@
             "sort_order": 77,
             "release_date": "2020-04-17",
             "default": "apple_iphone-se-2020_red-128gb",
+            "image": "https://www.kpn.com/shop/cdn/products/_/product_6083813_main.webp",
             "variants": [
                 {
                     "id": 656532,
@@ -2639,6 +2658,7 @@
             "sort_order": 62,
             "release_date": "2020-09-23",
             "default": "samsung_galaxy-s20-fe-4g-dual-sim_cloud-navy-128gb",
+            "image": "https://www.kpn.com/shop/cdn/products/_/product_6083813_main.webp",
             "variants": [
                 {
                     "id": 4078407,
@@ -2693,6 +2713,7 @@
             "sort_order": 80,
             "release_date": "2019-11-04",
             "default": "apple_iphone-xs-refurbished_space-grey-64gb",
+            "image": "https://www.kpn.com/shop/cdn/products/_/product_6083813_main.webp",
             "variants": [
                 {
                     "id": 637878,
@@ -2750,6 +2771,7 @@
             "sort_order": 49,
             "release_date": "2020-10-16",
             "default": "apple_iphone-12-pro-5g_graphite-128gb",
+            "image": "https://www.kpn.com/shop/cdn/products/_/product_6083813_main.webp",
             "variants": [
                 {
                     "id": 1498112,
@@ -2984,6 +3006,7 @@
             "sort_order": 17,
             "release_date": "2020-11-06",
             "default": "apple_iphone-12-mini-5g_black-64gb",
+            "image": "https://www.kpn.com/shop/cdn/products/_/product_6083813_main.webp",
             "variants": [
                 {
                     "id": 3360400,
@@ -3214,6 +3237,7 @@
             "sort_order": 57,
             "release_date": "2020-11-06",
             "default": "apple_iphone-12-mini-5g_productred-64gb",
+            "image": "https://www.kpn.com/shop/cdn/products/_/product_6083813_main.webp",
             "variants": [
                 {
                     "id": 1557080,
@@ -3269,6 +3293,7 @@
             "sort_order": 53,
             "release_date": "2020-11-06",
             "default": "apple_iphone-12-pro-max-5g_pacific-blue-128gb",
+            "image": "https://www.kpn.com/shop/cdn/products/_/product_6083813_main.webp",
             "variants": [
                 {
                     "id": 1566729,
@@ -3345,6 +3370,7 @@
             "sort_order": 75,
             "release_date": "2020-02-10",
             "default": "samsung_galaxy-xcover-pro-enterprise-edition_black-64gb",
+            "image": "https://www.kpn.com/shop/cdn/products/_/product_6083813_main.webp",
             "variants": [
                 {
                     "id": 637904,
@@ -3399,6 +3425,7 @@
             "sort_order": 60,
             "release_date": "2020-11-02",
             "default": "oppo_reno4-z-5g_ink-black-128gb",
+            "image": "https://www.kpn.com/shop/cdn/products/_/product_6083813_main.webp",
             "variants": [
                 {
                     "id": 1573398,

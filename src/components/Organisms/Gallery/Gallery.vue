@@ -3,7 +3,7 @@
         <div class="wrapper">
             <div class="container"  v-for="(phoneInformation) in phoneFeed" :key="phoneInformation.id">
                 <div class="content">
-                    <img :src="`${imageUrl}`" />
+                    <img :src="`${phoneInformation.image || imageUrl}`" />
                     <div class="manufacturer">
                        {{ phoneInformation.manufacturer }}
                     </div>
@@ -45,7 +45,7 @@ export default {
 
 .container {
     float: left;
-    width: 25%;
+    width: 30%;
     cursor: pointer;
     margin: 10px;
     border-radius: 25px;
@@ -106,13 +106,11 @@ img {
 @media screen and (max-width: 641px) {
     .wrapper {
         margin: 0 auto;
-
     }
     .container {
         float: left;
-        width: 50%;
+        width: 43%;
         cursor: pointer;
     }
-
 }
 </style>

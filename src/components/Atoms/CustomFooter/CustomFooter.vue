@@ -14,15 +14,12 @@ export default {
 </script>
 <style scoped>
 .wrapper {
-  background: #fff;
   height: 60px;
-  display: flex;
   width: 100%;
-  justify-content: center;
-  align-content: center;
   bottom:0;
   max-width: 1000px;
-  margin: auto;
+  position: fixed;
+  bottom: 0;
 }
 .content {
   align-self: center;
@@ -33,6 +30,6 @@ export default {
 
 .fill {
     width: 100%;
-    background: #ffc426;
+    background: #090;
 }
 </style>

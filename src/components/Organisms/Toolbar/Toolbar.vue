@@ -3,7 +3,11 @@
         <div class="filter">
           <span v-for="option in options" :value="option"
           :key="option">
-              <custom-filter :filter-options="option.options" :title="option.title"/>
+              <custom-filter
+              :filter-options="option.options"
+              :title="option.title"
+              :attribute="option.attribute"
+              />
           </span>
         </div>
     </div>
@@ -26,8 +30,8 @@ export default {
     /**
          * A function to send selected filter option with source to parent component
          */
-    onGenreFilterClick: function (option, source) {
-      this.$parent.onGenreFilterClick(option, source)
+    onFilterClick: function (option, attribute) {
+      this.$parent.onFilterClick(option, attribute)
     }
   }
 }

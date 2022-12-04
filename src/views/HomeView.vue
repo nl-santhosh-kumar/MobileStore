@@ -32,15 +32,19 @@ export default defineComponent({
   data: function () {
     return {
       phoneFeed: [],
+      allPhoneFeed: [],
       toolBarOptions: [{}]
     }
   },
   methods: {
+    onFilterClick: function (value = '', attribute = '') {
+      this.phoneFeed = this.allPhoneFeed.filter((feed) => feed[attribute] === value)
+    },
     loadPhoneFeed: function () {
       getPhoneFeed().then((phoneFeed) => {
         const { products = [] } = phoneFeed
         this.phoneFeed = products
-
+        this.allPhoneFeed = products
         // load filter options
         this.loadBrandOptions(products)
         // load operating system
@@ -49,6 +53,7 @@ export default defineComponent({
         // load refurb
         this.toolBarOptions.push({
           title: 'Refurbished',
+          attribute: 'refurbished',
           options: ['Yes', 'No']
         })
       }).catch((error) => {
@@ -62,6 +67,7 @@ export default defineComponent({
       })
       this.toolBarOptions.push({
         title: 'Brand',
+        attribute: 'manufacturer',
         options: [...new Set(options)]
       })
     },
@@ -72,6 +78,7 @@ export default defineComponent({
       })
       this.toolBarOptions.push({
         title: 'OS',
+        attribute: 'operating_system',
         options: [...new Set(options)]
       })
     }
